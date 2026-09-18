@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/animais/1
+method: GET
+order: 4167748403855359

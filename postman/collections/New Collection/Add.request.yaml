@@ -1,0 +1,25 @@
+$kind: http-request
+url: http://localhost:8080/animais
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Lulu\",\r
+
+    \  \"especie\": \"CACHORRO\",\r
+
+    \  \"raca\": \"Vira-Lata\",\r
+
+    \  \"idade\": 1,\r
+
+    \  \"sexo\": \"FEMEA\",\r
+
+    \  \"porte\": \"GRANDE\",\r
+
+    \  \"descricao\": \"Hostil.\",\r
+
+    \  \"status\": \"DISPONIVEL\"\r
+
+    }\r\n"
+order: 3112549080891391

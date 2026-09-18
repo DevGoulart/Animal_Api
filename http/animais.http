@@ -1,0 +1,38 @@
+### Consultar todos
+GET http://localhost:8080/animais
+
+### Consultar por ID
+GET http://localhost:8080/animais/1
+
+### Cadastrar
+POST http://localhost:8080/animais
+Content-Type: application/json
+
+{
+  "nome": "Mel",
+  "especie": "CACHORRO",
+  "raca": "SRD",
+  "idade": 1,
+  "sexo": "FEMEA",
+  "porte": "MEDIO",
+  "descricao": "Dócil e brincalhona.",
+  "status": "DISPONIVEL"
+}
+
+### Alterar
+PUT http://localhost:8080/animais/1
+Content-Type: application/json
+
+{
+  "nome": "Thor",
+  "especie": "CACHORRO",
+  "raca": "Labrador",
+  "idade": 4,
+  "sexo": "MACHO",
+  "porte": "GRANDE",
+  "descricao": "Adotado por uma família.",
+  "status": "ADOTADO"
+}
+
+### Excluir
+DELETE http://localhost:8080/animais/1

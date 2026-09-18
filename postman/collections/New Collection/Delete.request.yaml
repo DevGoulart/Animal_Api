@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/animais/3
+method: DELETE
+order: 1585643306090495
